@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_heroku'
-  s.version     = '1.0.0'
+  s.version     = '1.1.0'
   s.summary     = 'This is an extension for Spree, allowing the e-commerce system to run on Heroku.'
   s.description = 'This is an update of http://github.com/RSpace/spree-heroku that works with Rails >= 3.0.3 and Spree >= 0.40.0'
   s.required_ruby_version = '>= 1.8.7'
@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  s.add_dependency('spree_core', '>= 0.40.0')
+  s.add_dependency('spree_core', '>= 0.60.0')
 end
