@@ -10,6 +10,5 @@ Taxon.class_eval do
   private
   def ensure_trailing_slash
     set_permalink if self.permalink.blank?
-    self.permalink += "/" unless self.permalink[-1..-1] == "/"
   end
 end
